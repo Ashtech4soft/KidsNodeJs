@@ -10,7 +10,8 @@ require('dotenv').config()
 const app = express();
 
 // MongoDB Database URL
-const mongoURI = 'mongodb://localhost:27017/online_kids_shop';
+// const mongoURI = 'mongodb://localhost:27017/online_kids_shop';
+const mongoURI = 'mongodb+srv://ashtech4soft:RmhnJ5fTHRUT2qrg@cluster0.ktdlj.mongodb.net/online_kids_shop?retryWrites=true&w=majority';
 
 // Connect MongoDB Database
 mongoose.Promise = global.Promise;
